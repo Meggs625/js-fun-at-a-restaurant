@@ -1,6 +1,6 @@
 function nameMenuItem(foodChoice) {
   return `Delicious ${foodChoice}`;
-}
+};
 
 function createMenuItem(menuItemName, price, type) {
   var menuItem = {
@@ -9,7 +9,7 @@ function createMenuItem(menuItemName, price, type) {
     type: type,
   }
   return menuItem;
-}
+};
 
 
 function addIngredients(firstIngredient, ingredients) {
